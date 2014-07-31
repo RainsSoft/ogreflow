@@ -1,0 +1,37 @@
+<!-- 
+	Types of emitters supported by Ogre & their default parameters.
+	DO NOT MODIFY - unless you know what you're doing!
+-->
+<emitters>
+	<add emitter="Point"/>
+	<add emitter="Box">
+		<param name="width" default="1.0" />
+		<param name="height" default="1.0" />
+		<param name="depth" default="1.0" />
+	</add>
+	<add emitter="Cylinder">
+		<param name="width" default="1.0" />
+		<param name="height" default="1.0" />
+		<param name="depth" default="1.0" />
+	</add>
+	<add emitter="Ellipsoid">
+		<param name="width" default="1.0" />
+		<param name="height" default="1.0" />
+		<param name="depth" default="1.0" />
+	</add>
+	<add emitter="HollowEllipsoid">
+		<param name="width" default="1.0" />
+		<param name="height" default="1.0" />
+		<param name="depth" default="1.0" />
+		<param name="inner_width" type="float" default="0.9" />
+		<param name="inner_height" type="float" default="0.9" />
+		<param name="inner_depth" type="float" default="0.9" />
+	</add>
+	<add emitter="Ring">
+		<param name="width" default="1.0" />
+		<param name="height" default="1.0" />
+		<param name="depth" default="1.0" />
+		<param name="inner_width" type="float" default="0.9" />
+		<param name="inner_height" type="float" default="0.9" />
+	</add>
+</emitters>

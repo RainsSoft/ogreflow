@@ -1,0 +1,15 @@
+<!-- 
+
+Add materilas to this file for the system to find. 
+Otherwise you will have to type in the material name in program to apply.
+
+-->
+<materials>
+	<add name="ParticleDefault"/>
+	<add name="PlaneGround"/>
+	<add name="ParticleSmoke"/>
+	<add name="ParticleStar"/>
+	<add name="ParticleDust"/>
+	<add name="ParticleSpellCast"/>
+	<add name="ParticleWaterfall"/>
+</materials>

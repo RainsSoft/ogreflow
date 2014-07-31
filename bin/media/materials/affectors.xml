@@ -1,0 +1,15 @@
+<!--
+	Contains types of affectors that can influence an emitter.
+	DO NOT MODIFY - unless you know what you're doing!
+-->
+<types>
+	<add name="LinearForce"/>
+	<add name="ColourFader"/>
+	<add name="ColourFader2"/>
+	<add name="Scaler"/>
+	<add name="Rotator"/>
+	<add name="ColourInterpolator"/>
+	<add name="ColourImage"/>
+	<add name="DeflectorPlane"/>
+	<add name="DirectionRandomiser"/>
+</types>

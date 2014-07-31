@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<config version="1000">
+  <system name="System0">
+    <params>
+      <add key="quota" value="5000" />
+      <add key="emit_emitter_quota" value="3" />
+      <add key="material" value="ParticleDefault" />
+      <add key="particle_width" value="0.8" />
+      <add key="particle_height" value="0.8" />
+      <add key="cull_each" value="false" />
+      <add key="renderer" value="billboard" />
+      <add key="sorted" value="false" />
+      <add key="local_space" value="false" />
+      <add key="iteration_interval" value="0" />
+      <add key="nonvisible_update_timeout" value="0" />
+      <add key="billboard_type" value="point" />
+      <add key="common_direction" value="0 0 1" />
+    </params>
+    <affector type="LinearForce" name="Affector0">
+      <params>
+        <add key="force_vector" value="0 -9.8 0" />
+        <add key="force_application" value="add" />
+      </params>
+    </affector>
+    <affector type="Scaler" name="Affector1">
+      <params>
+        <add key="rate" value="0.1" />
+      </params>
+    </affector>
+    <affector type="DeflectorPlane" name="Affector2">
+      <params>
+        <add key="plane_point" value="0 0 0" />
+        <add key="plane_normal" value="0 1 0" />
+        <add key="bounce" value="0" />
+      </params>
+    </affector>
+    <emitter type="Point" name="Emitter0">
+      <params>
+        <add key="angle" value="20" />
+        <add key="colour" value="1 0.501961 0 0.501961" />
+        <add key="colour_range_start" value="1 0.501961 0 0.501961" />
+        <add key="colour_range_end" value="1 1 0 0" />
+        <add key="direction" value="0 1 0" />
+        <add key="emission_rate" value="1000" />
+        <add key="position" value="8 3 0" />
+        <add key="velocity" value="10" />
+        <add key="velocity_min" value="10" />
+        <add key="velocity_max" value="15" />
+        <add key="time_to_live" value="0" />
+        <add key="time_to_live_min" value="0" />
+        <add key="time_to_live_max" value="10" />
+        <add key="duration" value="5" />
+        <add key="duration_min" value="5" />
+        <add key="duration_max" value="10" />
+        <add key="repeat_delay" value="0" />
+        <add key="repeat_delay_min" value="0" />
+        <add key="repeat_delay_max" value="0.1" />
+        <add key="name" value="Emitter3:Point" />
+        <add key="emit_emitter" value="" />
+      </params>
+    </emitter>
+  </system>
+  <system name="System1">
+    <params>
+      <add key="quota" value="5000" />
+      <add key="emit_emitter_quota" value="3" />
+      <add key="material" value="ParticleDefault" />
+      <add key="particle_width" value="0.2" />
+      <add key="particle_height" value="1" />
+      <add key="cull_each" value="false" />
+      <add key="renderer" value="billboard" />
+      <add key="sorted" value="false" />
+      <add key="local_space" value="false" />
+      <add key="iteration_interval" value="0" />
+      <add key="nonvisible_update_timeout" value="0" />
+      <add key="billboard_type" value="point" />
+      <add key="common_direction" value="0 0 1" />
+    </params>
+    <affector type="LinearForce" name="Affector0">
+      <params>
+        <add key="force_vector" value="0 -100 0" />
+        <add key="force_application" value="add" />
+      </params>
+    </affector>
+    <affector type="DirectionRandomiser" name="Affector1">
+      <params>
+        <add key="randomness" value="100" />
+        <add key="scope" value="100" />
+        <add key="keep_velocity" value="false" />
+      </params>
+    </affector>
+    <emitter type="Cylinder" name="Emitter0">
+      <params>
+        <add key="angle" value="30" />
+        <add key="colour" value="1 1 1 1" />
+        <add key="colour_range_start" value="1 1 1 1" />
+        <add key="colour_range_end" value="1 1 1 0" />
+        <add key="direction" value="0 1 0" />
+        <add key="emission_rate" value="1000" />
+        <add key="position" value="-10 15 0" />
+        <add key="velocity" value="1" />
+        <add key="velocity_min" value="1" />
+        <add key="velocity_max" value="2" />
+        <add key="time_to_live" value="0" />
+        <add key="time_to_live_min" value="0" />
+        <add key="time_to_live_max" value="10" />
+        <add key="duration" value="5" />
+        <add key="duration_min" value="5" />
+        <add key="duration_max" value="10" />
+        <add key="repeat_delay" value="0" />
+        <add key="repeat_delay_min" value="0" />
+        <add key="repeat_delay_max" value="0.1" />
+        <add key="name" value="Emitter5:Cylinder" />
+        <add key="emit_emitter" value="" />
+        <add key="width" value="10" />
+        <add key="height" value="10" />
+        <add key="depth" value="0.1" />
+      </params>
+    </emitter>
+  </system>
+</config>

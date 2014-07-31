@@ -1,0 +1,11 @@
+<!--
+	Contains types of billboards that can be rendered.
+	DO NOT MODIFY - unless you know what you're doing!
+-->
+<types>
+	<add name="point"/> <!-- default -->
+	<add name="oriented_common"/> <!-- oriented to common vector(up) -->
+	<add name="oriented_self"/>
+	<add name="perpendicular_common"/>
+	<add name="perpendicular_self"/> <!-- directional by velocity -->
+</types>

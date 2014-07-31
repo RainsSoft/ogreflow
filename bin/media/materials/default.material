@@ -1,0 +1,137 @@
+material Dummy
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			
+			texture_unit
+			{
+				texture orange.png
+			}
+		}
+	}
+}
+
+material PlaneGround
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture checker.png
+			}
+		}
+	}
+}
+
+material ParticleDefault
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture point.png
+			}
+		}
+	}
+}
+
+material ParticleWaterfall
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture waterfall.png
+			}
+		}
+	}
+}
+
+material ParticleStar
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture star.png
+			}
+		}
+	}
+}
+
+material ParticleSmoke
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture smoke.png
+			}
+		}
+	}
+}
+
+material ParticleDust
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture dust.png
+			}
+		}
+	}
+}
+
+material ParticleSpellCast
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_write off
+			
+			texture_unit
+			{
+				texture sign.png
+			}
+		}
+	}
+}
