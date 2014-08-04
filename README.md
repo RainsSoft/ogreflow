@@ -44,13 +44,13 @@ Available in: `Samples` folder.
 
 ### OgreFlow in action ###
 
-Rain & fountain example
-
-![Alt text](/web/screen1_thumb.png "Rain & fountain example")
-
 Waterfall, simple fire & snow example
 
-![Alt text](/web/screen2_thumb.png "Waterfall, simple fire & snow example")
+![Alt text](/web/screen1_thumb.png "Waterfall, simple fire & snow example")
+
+Rain & fountain example
+
+![Alt text](/web/screen2_thumb.png "Rain & fountain example")
 
 Dense smoke example
 
