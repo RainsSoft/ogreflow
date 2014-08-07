@@ -13,7 +13,7 @@ OgreFlow helps to remedy this problem - it is a simple Ogre3D Engine particle co
 http://www.wzona.info/p/ogre-flow-particle-editor.html
 
 ### Current version ###
-  Ogre Flow, version 1.0, with full C# source
+  Latest Ogre Flow version here: [<a href="https://github.com/tomazas/ogreflow/archive/master.zip" target="_blank">Download</a>]
   
 ### Main features ###
   * Can edit all standard Ogre 1.7.x particle parameters
