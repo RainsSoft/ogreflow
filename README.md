@@ -40,7 +40,7 @@ Available in: `Samples` folder.
 ### Known bugs ###
 1. Error when inserting particle system after couple of resets using File->New
 2. Some emitter markers are left after deleting/reseting the scene. 
-3. Windows 7 x64 crash on application startup
+3. Windows 7 x64 crash on application startup (32/64bit Ogre library use issue)
 
 ### OgreFlow in action ###
 
